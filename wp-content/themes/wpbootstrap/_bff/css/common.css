@@ -1,0 +1,2029 @@
+@charset UTF-8;
+
+body {
+font-family:verdana,sans-serif;
+margin:0;
+}
+
+img {
+-ms-interpolation-mode:bicubic;
+}
+
+#ticketsolve p.add input,#ticketsolve p.add input:hover,#ticketsolve #print-now a,#ticketsolve #print-now a:visited,#ticketsolve #print-now a:link,#ticketsolve a#checkout_btn,#ticketsolve a#checkout_min_btn,#ticketsolve form#checkout p input#checkout_btn,#ticketsolve #skip-membership a,#ticketsolve input#delivery-proceed,#ticketsolve input#confirm-button,#ticketsolve input#waiting_btn,#ticketsolve #zoneproceed input#review_checkout_btn,#ticketsolve #promotions .promo a.book,#ticketsolve #promotions .promo a.book:hover,#ticketsolve a.blue-button,#ticketsolve a.blue-button:link,#ticketsolve a.blue-button:visited,#ticketsolve a.blue-button:hover,#ticketsolve .vevent a.book,#ticketsolve .vevent a.book:visited,#ticketsolve .vevent a.book:hover,#ticketsolve a.review-cart,#ticketsolve a.review-cart:hover,#ticketsolve a.details-payment,#ticketsolve a.details-payment:hover {
+width:auto;
+text-decoration:none;
+font-weight:700;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border:1px solid #39d;
+color:#FFF;
+text-shadow:0 -1px 0 #28c;
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#33C7FC',EndColorStr='#3399DD',GradientType=0);
+padding:6px 14px;
+}
+
+#ticketsolve p.add input:hover,#ticketsolve #print-now a:hover,#ticketsolve a#checkout_btn:hover,#ticketsolve a#checkout_min_btn:hover,#ticketsolve form#checkout p input#checkout_btn:hover,#ticketsolve #skip-membership a:hover,#ticketsolve input#delivery-proceed:hover,#ticketsolve input#confirm-button:hover,#ticketsolve input#waiting_btn:hover,#ticketsolve #zoneproceed input#review_checkout_btn:hover,#ticketsolve #promotions .promo a.book:hover,#ticketsolve a.blue-button:hover,#ticketsolve .vevent a.book:hover,#ticketsolve a.review-cart:hover,#ticketsolve a.details-payment:hover {
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#3399DD',EndColorStr='#33C7FC',GradientType=0);
+}
+
+#ticketsolve #print-now a:active,#ticketsolve a#checkout_btn:active,#ticketsolve a#checkout_min_btn:active,#ticketsolve form#checkout p input#checkout_btn:active,#ticketsolve #skip-membership a:active,#ticketsolve input#delivery-proceed:active,#ticketsolve input#confirm-button:active,#ticketsolve input#waiting_btn:active,#ticketsolve #zoneproceed input#review_checkout_btn:active,#ticketsolve #promotions .promo a.book:active,#ticketsolve .vevent a.book:active,#ticketsolve a.review-cart:active,#ticketsolve a.details-payment:active,#ticketsolve #print-now a:focus,#ticketsolve a#checkout_btn:focus,#ticketsolve a#checkout_min_btn:focus,#ticketsolve form#checkout p input#checkout_btn:focus,#ticketsolve #skip-membership a:focus,#ticketsolve input#delivery-proceed:focus,#ticketsolve input#confirm-button:focus,#ticketsolve input#waiting_btn:focus,#ticketsolve #zoneproceed input#review_checkout_btn:focus,#ticketsolve #promotions .promo a.book:focus,#ticketsolve .vevent a.book:focus,#ticketsolve a.blue-button:focus,#ticketsolve a.review-cart:focus,#ticketsolve a.details-payment:focus {
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#3399DD',EndColorStr='#3399DD',GradientType=0);
+}
+
+#ticketsolve a.browse_btn_large,#ticketsolve table#cart a.edit-cart,#ticketsolve table#cart a.edit-cart:link,#ticketsolve table#cart a.edit-cart:visited,#ticketsolve .event_time ul li a,#ticketsolve .event_time ul li a:link,#ticketsolve .event_time ul li a:visited,#ticketsolve a.browse_btn,#ticketsolve a.browse_btn:link,#ticketsolve a.browse_btn:visited {
+text-decoration:none;
+font-weight:700;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+color:#000;
+text-shadow:0 -1px 0 #ddd;
+border:1px solid #999;
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#FFFFFF',EndColorStr='#CCCCCC',GradientType=0);
+margin:0 16px 0 0;
+padding:6px 14px;
+}
+
+#ticketsolve a.browse_btn_large:hover,#ticketsolve table#cart a.edit-cart:hover,#ticketsolve a.browse_btn:hover {
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#CCCCCC',EndColorStr='#FFFFFF',GradientType=0);
+}
+
+#ticketsolve a.browse_btn_large:active,#ticketsolve table#cart a.edit-cart:active,#ticketsolve a.browse_btn:active,#ticketsolve a.browse_btn_large:focus,#ticketsolve table#cart a.edit-cart:focus,#ticketsolve a.browse_btn:focus {
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#FFFFFF',EndColorStr='#FFFFFF',GradientType=0);
+}
+
+#ticketsolve table#cart a.edit-cart,#ticketsolve table#cart a.edit-cart:link,#ticketsolve table#cart a.edit-cart:visited,#ticketsolve a.browse_btn,#ticketsolve a.browse_btn:link,#ticketsolve a.browse_btn:visited {
+font-size:11px;
+color:#444;
+}
+
+#ticketsolve #promotions .promo a.book,#ticketsolve #promotions .promo a.book:hover,#ticketsolve .vevent a.book,#ticketsolve .vevent a.book:hover,#ticketsolve a.review-cart,#ticketsolve a.review-cart:hover,#ticketsolve a.details-payment,#ticketsolve a.details-payment:hover,#ticketsolve a.edit-cart,#ticketsolve a.edit-cart:hover,#ticketsolve table#cart a.edit-cart,#ticketsolve table#cart a.edit-cart:hover {
+font-size:11px;
+line-height:11px;
+margin-top:.5em;
+float:left;
+}
+
+#ticketsolve input#confirm-button,#ticketsolve a#checkout_btn,#ticketsolve a#checkout_min_btn,#ticketsolve form#checkout p input#checkout_btn,#ticketsolve input#delivery-proceed,#ticketsolve input#waiting_btn,#ticketsolve #zoneproceed input#review_checkout_btn,#ticketsolve #print-now a {
+font-size:1.2em;
+text-transform:capitalize;
+padding:10px 20px;
+}
+
+#ticketsolve input#confirm-button,#ticketsolve form#checkout p input#checkout_btn,#ticketsolve input#delivery-proceed,#ticketsolve #zoneproceed input#review_checkout_btn {
+margin:0 0 0 16px;
+}
+
+#zoneproceed,#ticketsolve #skip-membership,#ticketsolve form#confirmation,#ticketsolve p#details-and-payment,#ticketsolve p.base_bar,#ticketsolve p#cart_confirm {
+border-top:1px solid #AAA;
+clear:both;
+text-align:center;
+background:#eaffea;
+border-bottom:1px solid #AAA;
+padding:2em;
+}
+
+#ticketsolve div#summary {
+clear:both;
+}
+
+#ticketsolve table#cart ul.seat_description li a {
+font-size:11px;
+}
+
+#ticketsolve table#cart ul.seat_description li a:hover {
+color:auto;
+}
+
+#ticketsolve table#cart a:visited.edit-cart,#ticketsolve table#lost-items a:visited.edit-cart {
+color:#FFF;
+text-decoration:none;
+}
+
+.send_email {
+border-top:none;
+padding-top:1em;
+}
+
+#venue_address,#production_company_contact_info {
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+clear:both;
+padding:1em;
+}
+
+#venue_address p {
+margin:0;
+padding:0;
+}
+
+.send_email .fieldWithErrors input {
+margin-bottom:.75em;
+width:180px;
+font-size:1.2em;
+line-height:1.2em;
+}
+
+#cards input {
+margin:0 2px 0 9px;
+}
+
+#ticketsolve #cart-comment {
+width:100%;
+float:left;
+border-bottom:1px solid #AAA;
+}
+
+#echo_comments {
+clear:both;
+padding-top:20px;
+}
+
+#ticketsolve #summary #your-comments h3 {
+text-align:left;
+}
+
+#ticketsolve .discounted {
+font-weight:400;
+font-style:italic;
+background:#ffa;
+padding:3px;
+}
+
+#cart-heading {
+display:inline;
+width:auto;
+padding-bottom:.5em;
+}
+
+#ticketsolve #your-comments p {
+font-style:italic;
+padding:1em;
+}
+
+#ticketsolve #cart-comment div {
+padding:2em;
+}
+
+#ticketsolve #cart-comment textarea {
+width:100%;
+margin-top:10px;
+}
+
+.right form#promo_code_form {
+font-size:.925em;
+}
+
+form input.code_enter_field {
+text-align:center;
+padding:.3em 0;
+}
+
+#ticketsolve #interest-groups {
+clear:both;
+float:left;
+width:100%;
+border-top:1px solid #AAA;
+margin:1em 0;
+padding:1em 0 0;
+}
+
+#ticketsolve #interest-groups h3 {
+padding:0;
+}
+
+#ticketsolve form#checkout #interest-groups ol {
+padding-bottom:1em;
+}
+
+#ticketsolve form#checkout #interest-groups ol li {
+padding:5px 0;
+}
+
+#ticketsolve #new_email p.captcha {
+font-size:1.5em;
+background:#efefef;
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+margin-bottom:1em;
+padding:10px;
+}
+
+#ticketsolve p#bundle_qualified {
+border:4px solid green;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+text-align:center;
+font-weight:700;
+background:#eaffea;
+margin:2em auto 2.5em;
+padding:1em;
+}
+
+#ticketsolve div.cart-discounts {
+background:#fff4a8;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+font-size:1.1em;
+text-align:justify;
+}
+
+#ticketsolve div.cart-discounts ul {
+list-style-position:inside;
+margin:0;
+padding:1em;
+}
+
+#ticketsolve div.cart-discounts ul li {
+padding:.5em 1em;
+}
+
+#ticketsolve #print-now {
+display:block;
+border-top:1px solid #AAA;
+background:#eaffea;
+text-align:center;
+float:left;
+width:100%;
+margin:1em auto 1.5em;
+padding:3em 0;
+}
+
+#ticketsolve a#reset_btn {
+margin-right:8px;
+}
+
+#ticketsolve a.browse_btn_large,#ticketsolve #skip-membership {
+clear:both;
+padding:10px 40px;
+}
+
+#ticketsolve #skip-membership a {
+font-size:1.2em;
+display:block;
+text-align:center;
+}
+
+.counter {
+position:absolute;
+z-index:100000;
+font-size:18px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border:4px solid #f5f1a8;
+background:rgba(245,241,168,0.75);
+display:block;
+font-weight:700;
+text-align:center;
+color:#222;
+height:40px;
+background-position:12px 8px;
+padding:15px 25px 15px 60px;
+}
+
+#timer.counter p {
+margin:0;
+padding:4px 0 0;
+}
+
+#timer.expired {
+color:#fff;
+border:4px solid red;
+background:rgba(255,0,37,0.85);
+background-position:50% 20px;
+padding:65px 120px 30px;
+}
+
+.counter,#timer.expired {
+background-image:url(/images/countdown.png?1351289800);
+background-repeat:no-repeat;
+}
+
+.counter p {
+color:#333;
+font-weight:400;
+font-size:12px;
+padding:10px 0 0;
+}
+
+.social_feed {
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+width:180px;
+background-color:#9bf3f6;
+display:block;
+clear:both;
+text-align:left;
+margin:2em auto;
+padding:0;
+}
+
+.social_feed ul {
+list-style-type:none;
+list-style-position:inside;
+text-align:left;
+margin:0;
+padding:0;
+}
+
+.social_feed span a img.profile_img {
+vertical-align:middle;
+margin-right:8px;
+border:2px solid #AAA;
+background:#FFF;
+float:left;
+padding:2px;
+}
+
+.social_feed span a img {
+vertical-align:middle;
+padding-right:1px;
+border:none;
+}
+
+.social_feed span a+a {
+padding-top:8px;
+display:block;
+text-decoration:none;
+}
+
+.social_feed ul li {
+word-wrap:break-word;
+}
+
+.social_feed span,.social_feed ul li {
+text-align:left;
+font-size:11px;
+line-height:1.6;
+padding:10px;
+}
+
+.social_feed ul li em {
+display:block;
+font-weight:400;
+font-style:italic;
+}
+
+.social_feed span {
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+display:block;
+background:#9bf3f6;
+}
+
+.social_feed ul li.odd {
+background-color:#91e5e7;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
+
+#facebook_feed {
+background-color:#f5f5f5;
+}
+
+#facebook_feed span,#facebook_feed ul li.odd {
+background-color:#eaeaea;
+}
+
+#social img.TW_profile_oic,#social img.FB_profile_pic {
+vertical-align:middle;
+width:50px;
+height:50px;
+border:3px solid #AAA;
+margin-right:5px;
+padding:3px;
+}
+
+#social {
+width:100%;
+border-bottom:1px solid #AAA;
+font-size:1.2em;
+line-height:1.2em;
+text-align:center;
+float:left;
+margin:0 auto;
+padding:.5em 0;
+}
+
+#facebook,#twitter {
+text-align:left;
+float:left;
+clear:both;
+width:100%;
+padding:.5em 0;
+}
+
+#ticketsolve #social em {
+color:#999;
+font-size:.9em;
+font-style:normal;
+font-weight:400;
+}
+
+#facebook img.fb_profile_pic_rendered,#twitter img.TW_profile_oic {
+vertical-align:middle;
+float:left;
+margin-right:15px;
+padding:3px;
+}
+
+#twitter input#tw_connect,#facebook img#RES_ID_fb_login_image {
+margin-right:4px;
+}
+
+#facebook span,#twitter span {
+line-height:2em;
+display:block;
+float:left;
+padding-top:10px;
+width:85%;
+}
+
+#social form,#social form div,#social form input {
+display:inline;
+}
+
+#prompt_order_publish {
+background:#e7f6ff;
+border-bottom:1px dotted #CCC;
+text-align:center;
+padding:2em 1em;
+}
+
+#tw_share {
+background:transparent url(/images/twitter_share.png?1351289800) no-repeat 0 50%;
+padding:1px 0 2px 20px;
+}
+
+#fb_share {
+background:transparent url(/images/facebook_share.png?1351289800) no-repeat 0 50%;
+padding:1px 0 2px 20px;
+}
+
+#new_card ul {
+list-style:none;
+font-size:1.1em;
+margin:0;
+padding:0;
+}
+
+#new_card ul li {
+padding:.5em 0;
+}
+
+#new_card ul li label {
+width:100px;
+}
+
+#new_card em {
+color:red;
+}
+
+#payment-stored-cards {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.three-d-secure-container-logo {
+float:right;
+}
+
+.three-d-secure-logo {
+margin-bottom:10px;
+}
+
+#card-logos {
+display:block;
+clear:both;
+width:100%;
+}
+
+#card-logos img.card {
+float:left;
+display:inline-block;
+margin:11px 0;
+padding:4px;
+}
+
+#card-logos img.selected {
+background:#999;
+}
+
+#card-logos #ssl-logo {
+padding-left:10px;
+float:left;
+display:inline-block;
+}
+
+li.card input,li.card span {
+padding-left:8px;
+}
+
+li.card {
+font-size:1.1em;
+background:#efefef;
+color:#000;
+border-top:1px solid #AAA;
+margin:0;
+padding:1em;
+}
+
+li.expired {
+background:#ffefef;
+}
+
+li.card em {
+font-style:italic;
+color:red;
+}
+
+#ticketsolve a.delete_card {
+margin-left:8px;
+background:transparent url(/images/delete_card.gif?1351289800) 0 0 no-repeat;
+text-indent:-10000px;
+overflow:hidden;
+width:13px;
+height:14px;
+margin-top:3px;
+display:inline-block;
+}
+
+#ticketsolve a.delete_card:hover {
+background:transparent url(/images/delete_card.gif?1351289800) 0 -14px no-repeat;
+}
+
+#promo ul {
+list-style-type:disc;
+list-style-position:inside;
+margin:1em 0;
+padding:0;
+}
+
+#promo ul li {
+font-size:1.2em;
+padding:.25em 0;
+}
+
+#promo {
+background:#fafafa;
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+margin-bottom:2em;
+padding:1em;
+}
+
+#promo span {
+font-size:1em;
+font-style:italic;
+}
+
+#ticketsolve form #email {
+font-weight:700;
+font-size:1.2em;
+margin:0 4px 0 0;
+padding:.25em;
+}
+
+#ticketsolve #print-page {
+text-align:center;
+float:left;
+width:100%;
+margin:1em auto 1.5em;
+}
+
+#ticketsolve #venue_map,#ticketsolve #production_company_map {
+width:100%;
+height:400px;
+margin:2em auto;
+}
+
+#ticketsolve .left-col {
+margin-right:228px;
+}
+
+#ticketsolve #shows {
+float:left;
+border-bottom:1px solid #AAA;
+}
+
+#ticketsolve .right-col,#ticketsolve .right-venue-col {
+float:right;
+width:208px;
+}
+
+p#languages {
+font-size:10px;
+color:#555;
+text-align:right;
+margin:10px 0;
+padding:0 5px;
+}
+
+p#languages a.flag {
+padding-left:5px;
+}
+
+.pagination {
+background:#f1f1f1;
+border:1px solid #e5e5e5;
+text-align:center;
+clear:both;
+padding:1em;
+}
+
+.pagination a,.pagination span {
+padding:.2em .3em;
+}
+
+.pagination span.disabled {
+color:#AAA;
+}
+
+.pagination span.current {
+font-weight:700;
+background:transparent url(/images/circle.gif?1351289800) no-repeat 50% 50%;
+}
+
+.pagination a {
+text-decoration:none;
+color:#000;
+}
+
+#ticketsolve #venue_info h3 {
+margin-bottom:0;
+border-bottom:1px solid #AAA;
+text-align:left;
+}
+
+#ticketsolve #ticket-zones .right #venue_info p {
+margin-bottom:3px;
+padding:6px 0 3px;
+}
+
+#ticketsolve #ticket-zones .right #venue_info p,#ticketsolve #ticket-zones .right #venue_info p a,#ticketsolve #ticket-zones .right #venue_info p a:visited {
+font-size:1em;
+color:#666;
+}
+
+#ticketsolve #day-choice {
+display:block;
+padding-top:1em;
+border-top:1px solid #AAA;
+margin:3em 0 2em;
+}
+
+#ticketsolve #day-choice h2 {
+font-size:1.25em;
+}
+
+#ticketsolve h2#event-day-header {
+font-size:1.25em;
+margin-bottom:0;
+}
+
+#ticketsolve .seated h1 {
+font-size:1.75em;
+}
+
+#ticketsolve h1,#ticketsolve h2,#ticketsolve h3 {
+color:#55d;
+font-family:helvetica,verdana,sans-serif;
+font-size:2.5em;
+line-height:1.1em;
+letter-spacing:-.03em;
+margin:.5em 0;
+padding:0;
+}
+
+#ticketsolve h1#cart-title {
+background:url(/images/cart-default.png?1351289800) 0 0 no-repeat;
+height:32px;
+padding-left:56px;
+padding-top:16px;
+}
+
+#ticketsolve h2,#ticketsolve h3 {
+font-size:2em;
+font-weight:400;
+margin:0 0 1em;
+}
+
+#ticketsolve h3 {
+font-size:1.65em;
+}
+
+#ticketsolve #summary h3 {
+border-top:1px solid #AAA;
+border-bottom:1px dotted #666;
+color:#666;
+text-align:center;
+margin-bottom:0;
+padding:1em 0;
+}
+
+#ticketsolve form #customer_address_line_2 {
+margin-top:.5em;
+}
+
+#ticketsolve form#checkout ol#questions li label {
+width:300px;
+}
+
+#ticketsolve form#checkout ol#questions li {
+float:left;
+clear:both;
+width:100%;
+}
+
+#promotion h2#running_count {
+text-align:center;
+border-top:1px solid #AAA;
+font-weight:700;
+color:#333;
+font-style:italic;
+font-size:1.6em;
+margin:.5em auto 0;
+padding:.5em 0;
+}
+
+#promotions .promo {
+clear:both;
+border-bottom:1px solid #AAA;
+padding-bottom:2em;
+margin-bottom:2em;
+}
+
+#promotions h1 {
+border-bottom:1px solid #AAA;
+padding-bottom:.5em;
+}
+
+#promotion-box {
+height:300px;
+overflow:auto;
+border:1px solid #999;
+font-size:.75em;
+margin:0 auto 3em;
+padding:1em;
+}
+
+#ticketsolve #promotions .promo a.book,#ticketsolve #promotions .promo a.book:hover {
+float:none;
+text-decoration:none;
+color:#FFF;
+}
+
+#ticketsolve form p#addpromotion {
+font-size:1em;
+border-top:1px solid #AAA;
+clear:both;
+text-align:center;
+background:#eaffea;
+border-bottom:1px solid #AAA;
+padding:2em;
+}
+
+#promotion-box .promoted-events {
+padding-bottom:2em;
+border-bottom:1px dotted #666;
+margin-bottom:2em;
+}
+
+#promotion h2 {
+margin-top:1.5em;
+margin-bottom:.5em;
+}
+
+#ticketsolve #performances,#ticketsolve #ticket-choice {
+margin:2em 0 0;
+}
+
+#ticketsolve #performances h2,#ticketsolve #ticket-choice h2 {
+margin-bottom:1em;
+}
+
+#ticketsolve .performance {
+width:85%;
+margin:0 auto;
+}
+
+#ticketsolve #performances h3 {
+color:#333;
+font-size:1.25em;
+background:#eef;
+border-top:1px solid #AAA;
+padding:.5em;
+}
+
+#ticketsolve p.add {
+text-align:right;
+padding:.5em 0 .5em .5em;
+}
+
+#ticketsolve table#delivery-products {
+margin-bottom:0;
+clear:both;
+border-top:1px solid #AAA;
+}
+
+#ticketsolve #products table {
+width:100%;
+border-top:1px solid #AAA;
+margin:3em auto;
+}
+
+#ticketsolve #products img,#ticketsolve table#delivery-products img {
+vertical-align:middle;
+padding-right:1em;
+}
+
+#ticketsolve form#checkout em,#ticketsolve em.red {
+color:red;
+font-weight:400;
+}
+
+#ticketsolve p.base_bar {
+display:block;
+background:#FFF;
+border-bottom:none;
+padding:4em 0 2em;
+}
+
+#ticketsolve #summary p.base_bar {
+padding-top:3em;
+}
+
+#ticketsolve #summary p.base_bar a.details-payment {
+font-size:1em;
+margin-left:0;
+}
+
+#ticketsolve p#details-and-payment,#ticketsolve p.base_bar {
+border-top:none;
+}
+
+#ticketsolve p#cart_confirm {
+display:block;
+padding:3em 0;
+}
+
+#ticketsolve .clear {
+clear:both;
+width:100%;
+text-align:center;
+}
+
+#ticketsolve div.hr {
+height:1px;
+clear:both;
+float:left;
+margin-top:1em;
+}
+
+#email_bar a {
+text-decoration:none;
+padding-left:20px;
+background:transparent url(/images/email_icon.gif?1351289800) left center no-repeat;
+}
+
+#ticketsolve .seat-list ul.seat_description {
+list-style:none;
+color:#4215d6;
+margin:0;
+padding:0;
+}
+
+#ticketsolve .seat-list ul.seat_description li {
+margin:.25em 0;
+}
+
+#ticketsolve .seat-list h4 {
+margin:1em 0 0;
+padding:0;
+}
+
+tr.fulfillment_product_line td,tr.booking_charge_line td,tr.no_remove_donation_line td {
+background:#f5f5f5;
+color:#777;
+}
+
+#ticketsolve p,#ticketsolve p.description,#ticketsolve .vevent ul.properties #ticketsolve .description,#ticketsolve form#checkout label,ol#payment label {
+font-size:1.15em;
+line-height:1.3em;
+}
+
+#ticketsolve p,#ticketsolve p.description,#ticketsolve .description p {
+color:#222;
+margin:0 0 1em;
+padding:0;
+}
+
+#ticketsolve p.comment {
+color:#55d;
+margin:.5em 0;
+}
+
+.seat_choose #ticketsolve p.comment {
+clear:both;
+margin:.5em 0 0;
+}
+
+#ticketsolve #cart p.price_name,#ticketsolve #cart p.zone_name {
+font-size:.9em;
+color:#777;
+font-weight:700;
+margin:.25em 0 0;
+}
+
+#ticketsolve p.actions {
+text-align:right;
+float:right;
+}
+
+#ticketsolve p.actions span {
+float:left;
+}
+
+#ticketsolve abbr {
+border:0;
+}
+
+#ticketsolve .clearfix {
+clear:both;
+margin:0;
+padding:0;
+}
+
+#ticketsolve em {
+font-style:normal;
+font-weight:700;
+}
+
+#ticketsolve img#progress {
+width:16px;
+height:16px;
+display:inline;
+margin-left:5px;
+}
+
+#ticketsolve ol#detail-summary.def li.card {
+width:auto;
+background:transparent;
+border:none;
+}
+
+#ticketsolve form p.agree.agreed {
+background:#eaffea;
+}
+
+#ticketsolve form p.agree {
+border-top:1px dotted #AAA;
+background:#efefef;
+margin-top:1em;
+padding:1em;
+}
+
+#ticketsolve div.agreements {
+border-bottom:1px dotted #AAA;
+}
+
+#ticketsolve div.agreement {
+padding-top:1em;
+}
+
+#show-location {
+border:2px solid #CCC;
+margin:1em auto;
+padding:2px;
+}
+
+#show-location h3 {
+text-align:center;
+border-bottom:1px solid #ccc;
+margin:0 auto;
+padding:4px 0 6px;
+}
+
+.right-col iframe {
+border:2px solid #CCC;
+padding:2px;
+}
+
+#ticketsolve #show-location #venue_map {
+height:200px;
+width:200px;
+margin:0 auto;
+}
+
+#ticketsolve table#cart tr.package_product_line td {
+padding:.5em .5em 0;
+}
+
+#ticketsolve table#cart tr.package_product_line td a {
+font-size:1.5em;
+display:block;
+}
+
+#ticketsolve form#new_waiting_list_entry {
+width:100%;
+margin:1.5em auto 0;
+}
+
+#ticketsolve form#new_waiting_list_entry h4 {
+font-size:1.2em;
+color:#000;
+}
+
+#register_waiting,#login_waiting {
+width:40%;
+color:#333;
+font-weight:400;
+text-align:left;
+float:left;
+margin-bottom:1em;
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+height:290px;
+background:#fafafa;
+padding:0 5%;
+}
+
+#ticketsolve form#new_waiting_list_entry div label {
+font-size:.9em;
+color:#757575;
+}
+
+input#waiting_list_entry_tickets_required,#ticketsolve form#new_waiting_list_entry div input {
+width:90%;
+font-size:1em;
+padding:5px;
+}
+
+#ticketsolve #waiting_btn {
+font-size:1.4em;
+margin:1em auto;
+}
+
+#login_waiting {
+background:#efefef;
+}
+
+#reward_redemption {
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+background:#efefef;
+font-size:11px;
+margin:1em auto;
+padding:2em 2em 0;
+}
+
+#ticketsolve form#checkout ol#loyalty-redemption-payment {
+background:#efefef;
+float:left;
+display:block;
+border-top:1px solid #AAA;
+padding:1em;
+}
+
+#ticketsolve ol#loyalty-redemption-payment label {
+width:auto;
+font-weight:700;
+}
+
+#ticketsolve #reward_redemption ul li {
+font-size:1.2em;
+font-weight:400;
+padding:.5em 0;
+}
+
+#ticketsolve #reward_redemption table tr td {
+text-align:left;
+padding:10px 0;
+}
+
+#ticketsolve #reward_redemption table {
+background:#FFF;
+border-top:1px dotted #AAA;
+border-bottom:1px dotted #AAA;
+margin:0;
+padding:20px;
+}
+
+#disqus_thread {
+clear:both;
+display:block;
+float:left;
+margin-top:.5em;
+width:100%;
+}
+
+#noscript-content {
+background-color:#ff9090;
+color:#000;
+font-size:120%;
+font-weight:700;
+left:0;
+position:fixed;
+text-align:center;
+top:0;
+width:100%;
+z-index:1000;
+padding:15px 5px;
+}
+
+.order_qr_code {
+padding-left:10px;
+float:right;
+}
+
+#order_qr_checkin_codes table {
+font-size:1.5em;
+font-weight:700;
+text-align:center;
+border-spacing:20px;
+}
+
+#order_qr_checkin_codes checkin_code_cell.td {
+text-align:right;
+}
+
+#ticketsolve {
+font-family:verdana,sans-serif;
+font-size:.75em;
+color:#333;
+width:90%;
+margin:0 auto 2em;
+}
+
+#ticketsolve #nav {
+margin:0 auto 2em;
+}
+
+#ticketsolve table#nav tr td {
+background:#efefef;
+padding:15px 0;
+}
+
+#ticketsolve table#nav tr td.prev {
+text-align:left;
+font-size:1.5em;
+padding-left:15px;
+width:30%;
+}
+
+#ticketsolve table#nav tr td.title {
+text-align:center;
+width:40%;
+}
+
+#ticketsolve table#nav tr td.title h2 {
+font-weight:700;
+font-size:1.7em;
+margin:0;
+}
+
+#ticketsolve table#nav tr td.next {
+font-size:1.5em;
+text-align:right;
+padding-right:15px;
+width:30%;
+}
+
+#ticketsolve #nav .prev a,#ticketsolve #nav .prev a:visited,#ticketsolve #nav .prev a:hover {
+font-weight:700;
+color:#555;
+background:transparent url(/images/large_left_arrow.gif?1351289800) center left no-repeat;
+padding:15px 20px 15px 40px;
+}
+
+#ticketsolve #nav .next a,#ticketsolve #nav .next a:visited,#ticketsolve #nav .next a:hover {
+font-weight:700;
+color:#555;
+background:transparent url(/images/large_right_arrow_nopad.gif?1351289800) center right no-repeat;
+padding:15px 40px 15px 20px;
+}
+
+#ticketsolve #nav .prev a:hover,#ticketsolve #nav .next a:hover {
+color:#000;
+text-decoration:none;
+}
+
+#ticketsolve form#show-product-discount {
+border-top:1px solid #AAA;
+margin:2em 0 0;
+}
+
+#ticketsolve form#show-product-discount #products table tr td {
+text-align:right;
+padding:1em 0;
+}
+
+#ticketsolve form#show-product-discount .event {
+padding:2em 0;
+}
+
+#ticketsolve tr td span.ticket-price-description {
+display:block;
+font-size:12px;
+color:#6a6a6a;
+}
+
+#ticketsolve h4.discount {
+margin-bottom:.5em;
+}
+
+#ticketsolve table#matrix {
+font-size:1.2em;
+}
+
+#ticketsolve table#matrix tr td {
+text-align:center;
+width:auto;
+padding:0;
+}
+
+#ticketsolve table#matrix thead tr td {
+width:130px;
+border-right:1px solid #AAA;
+border-bottom:1px solid #AAA;
+border-top:1px solid #AAA;
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#EFEFEF',EndColorStr='#FFFFFF',GradientType=0);
+padding:20px 0;
+}
+
+#ticketsolve table#matrix tr td.show_name {
+text-align:left;
+border-left:1px solid #AAA;
+}
+
+#ticketsolve table#matrix tr td.show_name a {
+width:100px;
+height:45px;
+background:#efefef;
+display:block;
+padding:20px;
+}
+
+#ticketsolve table#matrix tr td.photo_button {
+vertical-align:bottom;
+}
+
+#ticketsolve table#matrix tr td.photo_button a {
+width:130px;
+height:75px;
+display:block;
+text-align:left;
+padding:5px;
+}
+
+#ticketsolve table#matrix tr td.show_name,#ticketsolve table#matrix tr td.corner {
+border-bottom:1px solid #AAA;
+border-top:none;
+}
+
+#ticketsolve table#matrix tr td.no_shows {
+border-right:1px solid #AAA;
+text-align:center;
+font-style:italic;
+background:#fafafa;
+color:#999;
+padding:40px 0;
+}
+
+#ticketsolve table#matrix tr td.corner {
+background:transparent;
+border-right:1px solid #AAA;
+}
+
+#ticketsolve table#matrix tr.events td {
+border-right:1px solid #AAA;
+border-bottom:1px solid #AAA;
+}
+
+#ticketsolve table#matrix tr td.event_time {
+font-size:.85em;
+vertical-align:middle;
+text-align:center;
+padding:15px 2px;
+}
+
+#ticketsolve table#matrix tr td.event_time ul li {
+line-height:26px;
+padding:0;
+}
+
+#ticketsolve table#matrix tr td form {
+float:none;
+}
+
+#ticketsolve table#matrix tr td.event_time form input {
+margin-left:1px;
+vertical-align:middle;
+padding-bottom:3px;
+}
+
+#ticketsolve table#matrix tr td.event_time a,#ticketsolve table#matrix tr td.event_time a:visited {
+border:1px solid #CCC;
+color:#000;
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#FFFFFF',EndColorStr='#CCCCCC',GradientType=0);
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+display:block;
+width:50%;
+margin:8px auto 0;
+padding:2px 6px;
+}
+
+#ticketsolve table#matrix tr td.event_time a:hover {
+background:#FFF;
+text-decoration:none;
+}
+
+#ticketsolve p#patient.waiting {
+font-size:1.8em;
+border-top:1px solid #AAA;
+border-bottom:1px solid #AAA;
+background:#cfc url(/images/spinner.gif?1351289800) no-repeat 50% 10px;
+margin:20px 0 0;
+padding:50px 0 25px;
+}
+
+ol#steps {
+clear:both;
+font-size:12px;
+display:block;
+width:90%;
+border-bottom:1px solid #AAA;
+margin:0 auto;
+padding:0;
+}
+
+ol#steps li {
+list-style:none;
+background-image:url(/images/steps.gif?1351289800);
+background-repeat:no-repeat;
+background-position:right 8px;
+float:left;
+display:block;
+margin:0 8px 2em 0;
+padding:0 12px 0 0;
+}
+
+#steps li span,#steps li a {
+color:#666;
+float:left;
+display:block;
+padding:4px 0;
+}
+
+#steps li a+span {
+border:none;
+background:transparent;
+font-weight:400;
+margin:0;
+padding:4px 0 4px 4px;
+}
+
+#steps li a {
+float:left;
+display:block;
+}
+
+ol#steps li.last {
+background-image:none;
+padding-right:0;
+margin-right:0;
+}
+
+ol#steps li.selected a,ol#steps li.selected a:link,ol#steps li.selected a:visited {
+font-weight:700;
+color:#000;
+text-decoration:none;
+}
+
+#base {
+width:100%;
+clear:both;
+text-align:center;
+font-family:verdana,sans-serif;
+font-size:.7em;
+color:#666;
+margin:1em auto;
+}
+
+body p#base a:hover {
+background-color:transparent;
+}
+
+body p#base a img {
+padding-left:3px;
+vertical-align:text-bottom;
+border:none;
+}
+
+#ticketsolve .event_time h3 {
+padding-bottom:.5em;
+}
+
+#ticketsolve #events h2 {
+font-size:1.5em;
+border-bottom:1px solid #d1d1d1;
+margin:0;
+padding:0 0 .5em;
+}
+
+#ticketsolve #events .event {
+border-bottom:1px solid #dedede;
+padding:1em 0;
+}
+
+#ticketsolve #events,#ticketsolve #events .event_time {
+float:left;
+clear:both;
+display:block;
+}
+
+#ticketsolve #events {
+background:#f4f4f4;
+width:94%;
+margin:2em auto;
+padding:3%;
+}
+
+#ticketsolve .event_time ul {
+line-height:20px;
+word-spacing:1px;
+margin:0;
+padding:0;
+}
+
+#ticketsolve .event_time ul li {
+font-weight:700;
+list-style-type:none;
+margin-right:5px;
+float:left;
+padding:0;
+}
+
+#ticketsolve .event_time ul li.event_venue_name,#ticketsolve .event_time ul li.dtstart {
+font-weight:400;
+display:block;
+float:left;
+padding:3px 0;
+}
+
+#ticketsolve .event_time ul li.dtstart {
+font-weight:700;
+width:80px;
+}
+
+#ticketsolve .venue_description {
+font-size:1em;
+padding:1em 0 0;
+}
+
+#ticketsolve .event_time ul li a,#ticketsolve .event_time ul li a:visited,#ticketsolve .event_time ul li a:link {
+text-decoration:none;
+display:block;
+float:left;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border:1px solid #ccc;
+color:#000;
+text-shadow:0 -1px 0 #ddd;
+margin-right:0;
+padding:3px 8px;
+}
+
+#ticketsolve #ticket-zones .left h3 {
+margin-bottom:2em;
+color:#333;
+font-size:1.5em;
+border-bottom:1px solid #AAA;
+padding:1.5em 0;
+}
+
+.seat_choose #ticketsolve h2 {
+font-size:1.5em;
+margin-bottom:0;
+display:inline;
+padding:0 5px 0 0;
+}
+
+.seat_choose #ticketsolve form#zone_selection {
+display:inline;
+font-size:1em;
+padding:0;
+}
+
+#ticketsolve #ticket-zones #price_chooser,#ticketsolve #event_price_chooser,#ticketsolve p.indicator_large {
+background:#FFF;
+border:10px solid #777;
+display:block;
+font-size:1.2em;
+text-align:left;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+position:absolute;
+top:35%;
+left:40%;
+z-index:999999;
+margin:0;
+padding:35px;
+}
+
+#ticketsolve #ticket-zones #price_chooser {
+left:200px;
+padding:20px;
+}
+
+#ticketsolve #event_price_chooser {
+left:10%;
+padding:20px;
+}
+
+#ticketsolve #event_price_chooser h3,#ticketsolve #event_price_chooser table {
+border-bottom:1px solid #CCC;
+padding-bottom:.5em;
+margin-bottom:.5em;
+}
+
+#ticketsolve #event_price_chooser table {
+padding-bottom:1em;
+margin-bottom:0;
+}
+
+#ticketsolve #event_price_chooser p.add {
+text-align:center;
+background:#eaffea;
+border-bottom:1px solid #CCC;
+font-size:.95em;
+}
+
+#ticketsolve p.indicator_large {
+font-size:12px;
+top:35%;
+padding:20px;
+}
+
+#ticketsolve p.indicator_large img {
+padding-right:5px;
+vertical-align:middle;
+}
+
+#zoneseatmap h3 {
+background:#cef;
+}
+
+#ticket-zones {
+position:relative;
+overflow:hidden;
+}
+
+#seat-map {
+float:left;
+position:relative;
+margin:0 auto;
+}
+
+#ticket-zones .right #mini_map {
+border-top:1px solid #AAA;
+}
+
+#badge-key {
+float:left;
+clear:both;
+background:transparent url(/images/badge_key.png?1351289800) no-repeat 50% 0;
+display:block;
+width:100%;
+padding-top:38px;
+color:#757575;
+font-size:10px;
+text-align:center;
+margin:2em auto;
+}
+
+#seat-map a.badge {
+top:0;
+left:0;
+position:absolute;
+width:32px;
+height:32px;
+display:block;
+text-indent:-100000px;
+overflow:none;
+outline:none;
+background:transparent url(/images/seat_map_badge.png?1351289800) no-repeat 0 0;
+}
+
+#badge_hover .bar {
+margin-top:7px;
+width:178px;
+font-size:9px;
+line-height:1;
+height:9px;
+background:#84d700 url(/images/percent_bar.gif?1351289800) no-repeat 0 0;
+color:#333;
+border:1px solid #888;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+padding:3px 0;
+}
+
+#grid #seat-prices em {
+font-style:italic;
+margin:0;
+padding:0;
+}
+
+#seat-prices {
+background:rgba(255,255,255,0.95);
+position:absolute;
+z-index:100000;
+border-radius:8px;
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+border:2px solid #000;
+text-align:center;
+width:140px;
+padding:4px 8px;
+}
+
+#badge_hover {
+position:absolute;
+background:#FFF;
+z-index:100000;
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border:4px solid #000;
+text-align:center;
+margin-left:25px;
+margin-top:-25px;
+width:200px;
+}
+
+#badge_hover span.image {
+max-height:120px;
+overflow:hidden;
+border-bottom:1px solid #000;
+padding:0;
+}
+
+#badge_hover span.title {
+color:#FFF;
+background:0;
+filter:progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#A8A1CE',EndColorStr='#28204F',GradientType=0);
+border-top-left-radius:6px;
+border-top-right-radius:6px;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-topright:6px;
+-webkit-border-top-left-radius:6px;
+-webkit-border-top-right-radius:6px;
+font-size:18px;
+font-weight:700;
+text-align:left;
+text-shadow:.1em .1em .05em #28204f;
+padding:8px 10px 10px;
+}
+
+#badge_hover span.arrow {
+background:transparent url(/images/seat_map_badge.png?1351289800) no-repeat -20px -224px;
+display:block;
+width:12px;
+height:26px;
+position:absolute;
+top:10px;
+left:-16px;
+padding:0;
+}
+
+#ticketsolve #tiny_map {
+display:block;
+border-bottom:1px solid #AAA;
+margin:0 auto;
+padding:1em 0;
+}
+
+#badge_hover span {
+display:block;
+padding:8px 10px;
+}
+
+#badge_hover span:hover {
+cursor:pointer;
+}
+
+#ticketsolve #ticket-zones .right #zone_list h3 {
+margin-bottom:0;
+border-bottom:1px solid #AAA;
+}
+
+#ticketsolve #ticket-zones .right #venue_info h3 a {
+color:#333;
+text-decoration:none;
+}
+
+#ticketsolve #ticket-zones .right #ticketzone_info h3 {
+margin-bottom:0;
+}
+
+#ticketsolve #ticket-zones .right #zone_list ul {
+display:block;
+max-height:398px;
+overflow-y:scroll;
+}
+
+#ticketsolve #ticket-zones .right #zone_list ul li.sold_out,#ticketsolve #ticket-zones .right #zone_list ul li a,#ticketsolve #ticket-zones .right #zone_list ul li a:visited {
+border-bottom:1px solid #AAA;
+text-decoration:none;
+display:block;
+color:#000;
+padding:1em;
+}
+
+#ticketsolve #ticket-zones .right #zone_list ul li.last {
+border-bottom:none;
+}
+
+#seat-map a.badge.percent_100 {
+background-position:0 0;
+}
+
+#seat-map a.badge.percent_80 {
+background-position:0 -32px;
+}
+
+#seat-map a.badge.percent_60 {
+background-position:0 -64px;
+}
+
+#seat-map a.badge.percent_40 {
+background-position:0 -96px;
+}
+
+#seat-map a.badge.percent_20 {
+background-position:0 -128px;
+}
+
+#seat-map a.badge.percent_10 {
+background-position:0 -160px;
+}
+
+#seat-map a.badge.percent_0 {
+background-position:0 -192px;
+}
+
+#ticketsolve .right ul#key li div {
+display:inline-block;
+width:7px;
+height:15px;
+vertical-align:middle;
+text-align:center;
+font-size:10px;
+line-height:15px;
+}
+
+#ticketsolve #key .seat_assigned,#ticketsolve table#seat-layout tr td {
+background:#d7d7d7;
+}
+
+#ticketsolve table#seat-layout tr td.sp {
+background:transparent;
+}
+
+#ticketsolve #key .blocked,#ticketsolve table#seat-layout tr td.b {
+background:#89cee8;
+}
+
+#ticketsolve #key .seat_code_required,#ticketsolve table#seat-layout tr td.r a {
+color:#000;
+background:#d7d7d7;
+}
+
+#ticketsolve #key .seat_in_cart,#ticketsolve table#seat-layout tr td.c {
+background:#faa;
+width:6px;
+height:11px;
+border:2px solid red;
+}
+
+#ticketsolve .right ul#key li div.seat_in_cart {
+width:3px;
+height:11px;
+}
+
+#ticketsolve table#seat-layout tr td.c a,#ticketsolve table#seat-layout tr td.c a:active,#ticketsolve table#seat-layout tr td.c a:visited {
+width:6px;
+height:11px;
+background:#faa;
+}
+
+#ticketsolve #key .available,#ticketsolve table#seat-layout tr td.s {
+background:#0c0;
+}
+
+#ticketsolve table#seat-layout tr td a:hover {
+color:#333;
+background:#333;
+text-decoration:none;
+}
+
+#ticketsolve #ticket-zones .right ul#key {
+border-bottom:1px solid #AAA;
+background:#FFF;
+padding:10px 20px;
+}
+
+#zoneseatmap {
+overflow:hidden;
+}
+
+#ticket-zones #cart_sidebar_summary p.small {
+margin-bottom:0;
+padding-bottom:15px;
+}
+
+#ticket-zones #cart_sidebar_summary ul li strong {
+color:#000;
+font-size:1.2em;
+}
+
+#ticket-zones #cart_sidebar_summary ul li a.delete {
+background:transparent url(/images/delete.gif?1351289800) 0 0 no-repeat scroll;
+width:13px;
+padding-right:8px;
+height:14px;
+float:left;
+}
+
+#ticket-zones #cart_sidebar_summary ul li a.delete span {
+text-indent:-10000px;
+display:none;
+}
+
+#ticket-zones #cart_sidebar_summary ul li a.delete:hover {
+background:transparent url(/images/delete.gif?1351289800) 0 -14px no-repeat scroll;
+}
+
+#ticket-zones #cart_sidebar_summary #summary_total {
+color:#000;
+font-weight:700;
+font-size:1.2em;
+padding:0 5px;
+}
+
+#ticket-zones #cart_sidebar_summary .review-cart-holder {
+background:#efe;
+padding:10px 0 10px 15px;
+}
+
+#ticket-zones #cart_sidebar_summary {
+border-bottom:1px solid #AAA;
+}
+
+#ticket-zones #cart_sidebar_summary a.review-cart {
+display:block;
+height:12px;
+font-weight:700;
+float:none;
+width:75%;
+text-align:center;
+font-size:11px;
+margin:10px auto 5px;
+padding:5px 0;
+}
+
+#ticketsolve table#seat-layout span ul.hover-prices {
+color:#000;
+min-width:180px;
+padding:1em;
+}
+
+#ticketsolve table#seat-layout tr td.d {
+background:#FFF;
+color:#000;
+font-family:Courier,monospace;
+}
+
+#ticketsolve table#seat-layout tr td,#ticketsolve table#seat-layout tr td a {
+width:10px;
+height:15px;
+line-height:15px;
+vertical-align:middle;
+text-align:center;
+padding:0;
+}
+
+#ticketsolve table#cart a.edit-cart:hover,#ticketsolve a.browse_btn:hover,#ticketsolve #error_explanation h3 {
+color:#000;
+}
+
+#cards,.three-d-secure-logos,#ticketsolve #venue_info,#ticketsolve form.button-to div,#comodoTL,#ticketsolve p#patient {
+text-align:center;
+}
+
+#ticketsolve #your-comments,.discount_list {
+border-bottom:1px solid #AAA;
+margin-bottom:1em;
+}
+
+#ticketsolve #ticket-zones .right a.review-cart,#ticketsolve #ticket-zones .right a.review-cart:visited #ticketsolve #ticket-zones .right a.review-cart:hover,#timer.expired a,#timer.expired a:visited,#timer.expired,#timer.expired p,#ticketsolve table#seat-layout tr td.r a:hover {
+color:#FFF;
+}
+
+#timer.expired a,#timer.expired a:visited,li.card span.stored-card-number,#ticketsolve #products label,#ticketsolve table#delivery-products label,#ticketsolve table#delivery-products tr td.price,#ticketsolve #comments label,#ticketsolve #comments_acct label {
+font-weight:700;
+}
+
+#twitter input#tw_connect,#facebook img.fbconnect_login_button,#facebook img,#card-logos img,li.card img,p#languages a.flag img,#ticketsolve img#basket,#ticketsolve img.date-icon {
+vertical-align:middle;
+}
+
+#promo ul li ul,#ticketsolve #cart+p#cart_confirm {
+margin-top:0;
+}
+
+#ticketsolve #print-now a,#ticketsolve #print-now a:visited #ticketsolve #print-now a:hover,#ticketsolve #print-page a,#ticketsolve #print-page a:visited,#ticketsolve #print-page a:hover {
+background:#424242 url(/images/print_now.gif?1351289800) no-repeat 0 0;
+width:300px;
+text-decoration:none;
+font-size:16px;
+line-height:16px;
+color:#FFF;
+font-weight:700;
+display:block;
+margin:0 auto;
+padding:8px 20px 13px 40px;
+}
+
+#ticketsolve #summary,#ticketsolve form#fulfillment_form {
+margin-top:2em;
+}
+
+#ticketsolve .pagination a:hover,#ticketsolve .pagination a:focus,#email_bar a:hover {
+text-decoration:underline;
+}
+
+#ticketsolve table tr th,#ticketsolve p#cart_confirm input,#ticketsolve input#confirm-button,#ticketsolve #terms p,div.agreement,#ticketsolve div.agreement p,div.agreement label,.seat_choose #ticketsolve p.small {
+font-size:1em;
+}
+
+#ticketsolve #products table tr td,#ticketsolve table#delivery-products tr td,#ticketsolve table#comments tr td,#ticketsolve table#comments_acct tr td {
+text-align:left;
+border-bottom:1px solid #AAA;
+padding:1em;
+}
+
+#ticketsolve table#comments,#ticketsolve table#comments_acct {
+width:auto;
+border-top:1px solid #AAA;
+margin:300em auto 3em;
+}
+
+#ticketsolve #summary a#reset_btn,#ticketsolve form#show-product-discount #products table {
+margin:0;
+}
+
+#ticketsolve #next-show-link,#ticketsolve hr,#ticketsolve img#progress.hide,#ticketsolve p.discount-description span.long,#ticketsolve p.discount-description:hover span.short,#ticketsolve .event_time ul li.event_venue_name,.vlayout,#seat-map a.badge img,a.badge span {
+display:none;
+}
+
+#show-location h3 a,#ticketsolve table#matrix tr td.photo_button a:hover {
+text-decoration:none;
+}
+
+#shadowbox_title,#shadowbox_info {
+border:0 solid;
+}
+
+input#waiting_list_entry_tickets_required,#ticketsolve table#seat-layout {
+width:auto;
+}
+
+#ticketsolve .soldout .clearfix,#ticketsolve .event_time,.seat_choose #ticketsolve {
+width:100%;
+}
+
+#ticketsolve p.discount-description:hover span.long,#ticket-zones .right #venue_info .imglink img,#ticket-zones .right #ticketzone_info img,#ticket-zones .right #mini_map img,#ticketsolve table#seat-layout tr td a,#ticketsolve table#seat-layout tr td a:visited,#ticketsolve table#seat-layout tr td a:active,#ticketsolve table#seat-layout tr td a:link {
+display:block;
+}
+
+#ticketsolve #ticket-zones .right #zone_list ul,#ticketsolve #ticket-zones .right #zone_list ul li,#ticket-zones #zoneseatmap img.zone-seat-map {
+margin:0;
+padding:0;
+}
+
+#ticketsolve table#seat-layout tr,#ticketsolve table#seat-layout,#ticket-zones #cart_sidebar_summary ul li {
+font-size:10px;
+}
